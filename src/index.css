@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: IranSans;
+    src: url('./assets/fonts/IRANSans_Bold.ttf');
+    
+}
+@font-face {
+    font-family: IranSans2;
+    src: url('./assets/fonts/IRANSans.ttf');
+    
+}
+
+:root{
+    --main-color:#323232;
+    --main-gold:#FEBD15;
+
+}
+body{
+    direction: rtl;
+    font-family: IRANSans2;
+    /* background-color: var(--main-color); */
+}

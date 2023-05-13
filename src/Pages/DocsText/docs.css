@@ -1,0 +1,6 @@
+.swiper-pagination-bullet-active {
+    background-color: #e6e6e6 !important;
+}
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
